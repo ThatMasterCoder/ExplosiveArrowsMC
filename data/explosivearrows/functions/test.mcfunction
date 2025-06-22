@@ -1,1 +1,1 @@
-say Hello from ExplosiveArrows datapack!
+say Hello World!
