@@ -1,0 +1,1 @@
+tellraw @a [{"text":"[ExplosiveArrows] ","color":"red"},{"text":"Test function works!","color":"yellow"}]
