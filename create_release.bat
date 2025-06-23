@@ -1,9 +1,12 @@
 @echo off
 echo Creating release zip for ExplosiveArrowsMC...
 
+REM version number
+set "version=1.0"
+
 REM Create temporary directory outside current folder
 set "tempDir=%~dp0..\temp_release"
-set "zipName=%~dp0..\explosivearrowsmc-v1.0.zip"
+set "zipName=%~dp0..\explosivearrowsmc-v%version%.zip"
 
 REM Clean up any existing temp directory
 if exist "%tempDir%" rmdir /s /q "%tempDir%"
@@ -26,7 +29,7 @@ REM Clean up
 rmdir /s /q "%tempDir%"
 
 echo.
-echo Successfully created: explosivearrowsmc-v1.0.zip
+echo Successfully created: explosivearrowsmc-v%version%.zip
 echo Location: %~dp0..\
 echo Ready for GitHub release!
 pause
