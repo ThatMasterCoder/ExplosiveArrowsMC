@@ -1,1 +1,1 @@
-say hi this is working i hope
+say ExplosiveArrows loaded successfully!
